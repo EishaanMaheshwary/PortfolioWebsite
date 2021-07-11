@@ -1,0 +1,72 @@
+#home{
+position:absolute;
+overflow:hidden;
+background:linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+top:0;
+bottom:0;
+left:0;
+right:0;
+}
+.nameheading{
+font-size:30px;
+}
+body{
+padding-top:800px;
+text-align:center;
+}
+img{
+margin-top: 150px;
+}
+.line{
+ margin-left:600px;
+ height:3px;
+ width:375px;
+ background-color:black;
+}
+h1{
+text-shadow:2px 2px #F8BBDO;
+}
+p{
+text-align:center;
+font-weight:bold;
+font-size:20px;
+}
+.menu{
+list-style:none;
+top:30px;
+left:500px;
+cursor:pointer;
+z-index:10;
+position:fixed;
+}
+.links{
+padding-bottom:20px; 
+padding-top:20px;
+padding-left:20px;
+padding-right:20px;
+font-size:20px;
+float: left;
+font-weight:bold;
+}
+.links:hover{
+background-color:hotpink;
+font-size:30px;
+}
+a{
+text-decoration:none;
+}
+html{
+scroll-behavior:smooth;
+}
+#hi{
+transition: transform .2s;
+}
+#hi:hover{
+transform: scale(0.9);
+}
+#efg{
+transition: transform .2s;
+}
+#efg:hover{
+transform: scale(0.9);
+}
